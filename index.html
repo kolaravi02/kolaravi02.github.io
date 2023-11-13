@@ -1,53 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
+    <head>
+        <title>Ravi Kola</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="Ravi Kola IISC GEC Gandhinagar GTU Robotics Club" />
+        <meta name="keywords" content="Ravi Kola, IISC, RBCCPS, Stochlab, GEC Gandhinagar, GTU Robotics Club" />
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <link rel="shortcut icon" href="./images/aa-icon.png">
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself and your skills here.</p>
-    </section>
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/blue.css">
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Add your project descriptions and links here -->
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
-            <a href="project1-link">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-            <a href="project2-link">View Project</a>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at your@email.com</p>
-    </section>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <a href="index.html">
+                                <div class="portrait hidden-xs"></div>
+                                <div class="title">
+                                    <h3>Ravi Kola</h3>
+                                    <!-- <h3>University of Southern California</h3> -->
+                            </a>
+                            <a title="IISC" href="https://www.iisc.ac.in/" target="_blank">
+                                <h5 style="color: #aaa">Indian Institute of Science,</h5> 
+                                <h5 style="margin-top: -3%; color: #aaa;"> Bengaluru</h5>
+                            </a>
+                        </div>   
+                    </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li class="currentmenu">
+                                  <a href="index.html">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About</div>
+                                  </a>
+                                </li>  
+                                
+                                <li>
+                                  <a href="research.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Research</div>
+                                  </a>
+                                </li> 
+                                
+                                <!-- <li>
+                                  <a href="publication.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li>  -->
+
+
+                                <li>
+                                  <a href="robots.html">
+                                    <i class='fa fa-android'></i>
+                                      <div class="text">Robots</div>
+                                  </a>
+                                </li>
+
+
+                                <li>
+                                  <a href="compet.html">
+                                      <i class="fa fa-map-marker"></i>
+                                      <div class="text">Competitions and Activities</div>
+                                  </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <!-- Social media -->
+
+                        <div id="rcorners">
+                            <div class="grid-container">
+                                    <item><a title="Email" href="mailto:ravikola@iisc.ac.in"><i class="fa fa-envelope"></i></a></item>
+                                    <item><a title="GitHub" href="https://github.com/MightyKyloRen" target="_blank"><i class="fa fa-github"></i></a></item>
+                                    <item><a title="LinkedIn" href="https://www.linkedin.com/in/ravi-kola-561144157/" target="_blank"><i class="fa fa-linkedin"></i></a></item>
+                                    <item>
+                                        <a title="Resume" href="https://drive.google.com/file/d/1Ddc02dLLvXmW_8lrNxVo4XeXTujh_lvi/view?usp=share_link" target="_blank">
+                                            <span class="fa-stack fa-1x">
+                                                <i class="fa fa-file fa-stack-1x"></i>
+                                                  <span class="fa fa-stack-1x" style="color:rgb(0, 0, 0);">
+                                                      <span style="font-size:11px; margin-top:0px; font-weight: bold;">
+                                                          CV
+                                                      </span>
+                                                </span>
+                                            </span>	
+                                    
+                                        </a>
+                                    </item>
+                            </div>
+                        </div>
+
+                        <!-- /Main navigation-->
+                        <!-- Sidebar footer -->
+                        <div id="sidebar-footer">
+                            <div class="lastupdate">Last Updated: Nov 2023</div>
+                            <!-- <div class="social-icons">
+                                <ul>
+                                    <li><a href="https://github.com/agnihotriakhil"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://scholar.google.com/citations?user=Kf1o27gAAAAJ&hl=en"><i class="fa fa-google"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/akhil-agnihotri-549690137/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/akhil.agnihotri.35"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/longstory_short_/"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div> -->
+                            <!-- <div id="copyright">
+                                <i class="fa fa-copyright">Akhil Agnihotri</i>
+                            </div> -->
+                    
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main">
+            
+                <div id="biography" class="page home" data-pos="home">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                
+                                <div class="row">
+                                    <div class="col-sm-2 visible-sm"></div>
+                                    <div class="col-sm-8 col-md-4" style="padding-top: 50px;">
+                                        <div class="biothumb">
+                                            <img alt="Profile image" src="images/personal/profile1.jpeg" class="img-responsive" style="zoom: 90%;">
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="clearfix visible-sm visible-xs"></div>
+                                    <div class="col-sm-12 col-md-7" style="padding-left: 5%;">
+                                        <h3 class="title">Ravi Kola</h3>
+                                        <p>
+                                            I am currently a Graduate Research Assistant at the Robert Bosch Centre for Cyber-Physical Systems at the Indian Institute of Science, Bengaluru.
+                                        </p>    
+                                        <p> 
+                                            I develop robust control architectures for legged robotic platforms such as the Biped Robot Dridh and Quadruped Robot Stoch3. Additionally, I actively work on the electronics and software development for these robots. Check out our work at <a href="https://www.stochlab.com/">Stochlab</a>. Prior to this, I was the Management head and member at <a href="https://www.gturoboticsclub.in" target="_blank">GTU Robotics Club</a> working for ABU Robocon 2023 and 2022.
+                                            
+                                        </p>
+                                        <br>
+                                        <p> 
+                                            <a href="https://drive.google.com/file/d/19GvKdUwTlgI36KgO9iLzPJktc684Bnw9/view?usp=share_link" target="_blank"><strong>Resume</strong></a> <strong>|</strong> 
+                                            <a title="Email" href="mailto:ravikola@iisc.ac.in"><strong>Email</strong></i></a> 
+                                        </p>
+
     
-    <footer>
-        <p>&copy; 2023 Your Name</p>
-    </footer>
-</body>
+                                        <!-- <p> 
+                                            <strong>Adviser</strong>: <a href="https://www.rahuljain.net/home" target="_blank">Prof. Rahul Jain</a> 
+                                        </p> -->
+
+                                    </div>  
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <div class="section color-1">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md col-md-offset-1">
+                                        <div class="title text-left">
+                                            <h3>News</h3>
+                                        </div>
+                                       
+                                        <ul class="ul-dates"> 
+                                            
+                                            <li>
+                                                <div class="dates">
+                                                    <span>June 23</span>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Joined Stoch labs, IISC as a full time Research Assistant                                                        
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                        </ul> 
+                                        <ul class="ul-dates"> 
+                                            
+                                            <li>
+                                                <div class="dates">
+                                                    <span>Feb 23</span>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Started my academic internship at RBBCPS, IISC working on biped robot dridh                                                        
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                        </ul> 
+                                        
+                                    </div>
+                                    <!-- <div class="col-md-5">
+                                        <div class="title text-center">
+                                            <h3>Education</h3>
+                                        </div>
+                                        <ul class="ul-card">
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">B.E.</span>
+                                                    <span class="year">2016 - 2020</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Mechanical Engineering and Data Science (Minor)</p>
+                                                    <p class="where">BITS Pilani</p>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>  -->
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="width:300px; margin:auto;">
+                            <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5t259rss3n1&amp;m=1&amp;c=ff0000&amp;cr1=ffffff&amp;f=calibri&amp;l=0&amp;s=300" async="async"></script>
+                        </div>
+                            
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </body>
 </html>
+
