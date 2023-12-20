@@ -124,7 +124,7 @@
                                     <item><a title="GitHub" href="https://github.com/MightyKyloRen" target="_blank"><i class="fa fa-github"></i></a></item>
                                     <item><a title="LinkedIn" href="https://www.linkedin.com/in/ravi-kola-561144157/" target="_blank"><i class="fa fa-linkedin"></i></a></item>
                                     <item>
-                                        <a title="Resume" href="https://drive.google.com/file/d/1Ddc02dLLvXmW_8lrNxVo4XeXTujh_lvi/view?usp=share_link" target="_blank">
+                                        <a title="Resume" href="https://drive.google.com/file/d/1GahJgyXKyBLScosJbWOlScB1yNmn3G0Z/view?usp=sharing" target="_blank">
                                             <span class="fa-stack fa-1x">
                                                 <i class="fa fa-file fa-stack-1x"></i>
                                                   <span class="fa fa-stack-1x" style="color:rgb(0, 0, 0);">
@@ -230,22 +230,19 @@
                                                     </div>
                                                     <div class="col-sm-8 col-md-9" style="margin-top: -10px; margin-left: -50px;">
                                                         <div class="meta">
-                                                            <h3>Stoch BiRo: Design and Control of a Bipedal Robot                                                     
+                                                            <h3>Stoch BiRo: Design and Control of a low cost bipedal robot
                                                             </h3>
-                                                            <p> <strong style="font-weight: 600;">Ravi Kola</strong>, Vamshi Kumar Kurva, Karthik Rajgopal, GVS Mothish, Manan Tayal, Shishir Kolathaya</p>
+                                                            <p> GVS Mothish, Karthik Rajgopal, <strong style="font-weight: 600;">Ravi Kola</strong>, Manan Tayal, Shishir Kolathaya</p>
                                                             <p>
-                                                                Preprint &nbsp;
-                                                                [<a target="_blank">arxiv</a>]
-                                                                <!-- [<a href="https://github.com/HanjiangHu/Multi-LiDAR-Placement-for-3D-Detection" target="_blank">code</a>] -->
-                                                                [code]
+                                                                [<a href="https://tayalmanan28.github.io/Stoch-BiRo/">Project Site</a>] &nbsp;
+                                                                [<a href="https://arxiv.org/abs/2312.06512">arxiv</a>]
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="details">
                                                     <p>
-                                                        <strong>Abstract</strong>:  This paper introduces a new dynamic biped, the Stoch BiRo. The Stoch BiRo exploits tailored mechanical design to enable simple control strategies for dynamic locomotion and features high-bandwidth proprioceptive actuators to manage physical interaction with the environment. A new leg design is presented that includes proprioceptive actuation on the abduction/adduction degrees of freedom in addition to an expanded range of motion on the hips and knees. To make full use of these new capabilities, general balance and locomotion controllers for Cheetah 3 are presented. These controllers are embedded into a modular control architecture that allows the robot to handle unexpected terrain disturbances through reactive gait modification and without the need for external sensors or prior environment knowledge. The efficiency of the robot is demonstrated by a low Cost of Transport (CoT) over multiple gaits at moderate speeds, with the lowest CoT of 0.45 found during trotting. Experiments showcase the ability to blindly climb up stairs as a result of the full system integration. These results collectively represent a promising step toward a platform capable of generalized dynamic legged locomotion.
-
+                                                        <strong>Abstract</strong>: This paper introduces the Stoch BiRo, a cost- effective bipedal robot designed with a modular mechanical structure having point feet to navigate uneven and unfamil- iar terrains. The robot employs proprioceptive actuation in abduction, hips, and knees, leveraging a Raspberry Pi4 for control. Overcoming computational limitations, a Learning- based Linear Policy controller manages balance and locomotion with only 3 degrees of freedom (DoF) per leg, distinct from the typical 5DoF in bipedal systems. Integrated within a modu- lar control architecture, these controllers enable autonomous handling of unforeseen terrain disturbances without external sensors or prior environment knowledge. The robot’s policies are trained and simulated using MuJoCo, transferring learned behaviors to the Stoch BiRo hardware for initial walking validations. This work highlights the Stoch BiRo’s adaptability and cost-effectiveness in mechanical design, control strategies, and autonomous navigation, promising diverse applications in real-world robotics scenarios.
                                                     </p>
                                                     
                                                 </div>
@@ -255,14 +252,12 @@
                                     </div>
 
                                     <!-- Projects -->
-                                    <div class="col-md-10 col-md-offset-1" style="margin-top: 75px;">
+                                    <div class="col-md-10 col-md-offset-1" style="margin-top: 25px;">
                                         <div class="title text-center">
                                             <h3 style="font-weight: 400;">Projects</h3>
                                         </div>
                                         <ul class="ul-withdetails">
-                                            <!-- MPC -->
-                                            <!-- State Estimation -->
-                                            <!-- Contact Estimation -->
+                                            
                                             <li>
                                                 <div class="row">
                                                     <div class="col-sm-4 col-md-3">
@@ -287,6 +282,37 @@
                                                     </p>
                                                     <p>
                                                         <img alt="scenario-generation" src="images/research/staircase.gif" 
+                                                            class="img-responsive" style="scale: 0.8; display: block; margin: 0 auto;">
+                                                    </p>
+                                                    
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image thumb">
+                                                            <img alt="scenario-generation" src="images/research/step-over.jpeg" class="img-responsive" style="height: 100%;">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9" style="margin-left: -50px;">
+                                                        <div class="meta">
+                                                            <h3>Step-over for a quasi-static gait using feedback-controlled Center of Mass (CoM) correction</h3>
+                                                            <p> 
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details" style="padding-bottom: 2%;">
+                                                    <p>
+                                                        <strong>Abstract</strong>: The project involved a quasi-static gait that incorporated feedback-controlled Center of Mass (CoM) correction, enabling the robot to step over obstacles with a height of up to 20 cm. This development was in response to a problem statement presented by the Indian Space Research Organization.
+
+                                                    </p>
+                                                    <p>
+                                                        <img alt="scenario-generation" src="images/research/step-over.gif" 
                                                             class="img-responsive" style="scale: 0.8; display: block; margin: 0 auto;">
                                                     </p>
                                                     
